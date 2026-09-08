@@ -157,7 +157,7 @@ export default function Home() {
             </Section>
 
             <Section id="projects" title="Projects">
-              <Entry title="Collaborator, Multimodal 30-Day Hospital Readmission Prediction (Kaggle)" date="Nov 2025 — Dec 2025">
+              <Entry title="Collaborator - Multimodal 30-Day Hospital Readmission Prediction (Kaggle)" date="Nov 2025 — Dec 2025">
                 <ul>
                   <li>Achieved a validation AUC of 0.8694 by combining EHR sequences, X-ray embeddings, and clinical notes through an AutoGluon weighted ensemble.</li>
                   <li>Engineered multimodal features using GRUs for temporal EHR data, PCA for high-dimensional image embeddings, and clinical NLP pipelines incorporating the Charlson Comorbidity Index.</li>
@@ -165,7 +165,7 @@ export default function Home() {
                 </ul>
               </Entry>
 
-              <Entry title="On-Stage Talker, Web Traffic Shifts: Search Engines vs. LLMs" date="June 2024">
+              <Entry title="On-Stage Talker - Web Traffic Shifts: Search Engines vs. LLMs" date="June 2024">
                 <ul>
                   <li>Presented an R/ggplot2 exploratory analysis of changing user behaviour to a technical audience of approximately 100.</li>
                 </ul>
