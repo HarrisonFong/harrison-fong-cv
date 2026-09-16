@@ -50,7 +50,7 @@ export default function Home() {
             <a href="#projects">Projects</a>
             <a href="#experience">Experience</a>
           </nav>
-          <a className="download-link" href="/Fong_Shu_Hung_CV.pdf" download>Download PDF</a>
+          <a className="download-link" href="Fong_Shu_Hung_CV.pdf" download>Download PDF</a>
         </div>
       </header>
 
@@ -66,7 +66,7 @@ export default function Home() {
               <a href="mailto:k04f06@connect.hku.hk">k04f06@connect.hku.hk</a>
             </div>
           </div>
-          <a className="hero-download" href="/Fong_Shu_Hung_CV.pdf" download>
+          <a className="hero-download" href="Fong_Shu_Hung_CV.pdf" download>
             <span>PDF</span>
             Download full CV
           </a>
