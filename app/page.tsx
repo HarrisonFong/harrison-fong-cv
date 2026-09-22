@@ -1,3 +1,5 @@
+/* oxlint-disable next/no-img-element -- GitHub Pages serves the local portrait as a static asset. */
+
 type EntryProps = {
   title: string;
   organization?: string;
@@ -40,20 +42,6 @@ export default function Home() {
     <>
       <a className="skip-link" href="#cv-content">Skip to CV content</a>
 
-      <header className="site-header">
-        <div className="header-inner">
-          <a className="wordmark" href="#top" aria-label="Back to the top">FSH</a>
-          <nav aria-label="CV sections">
-            <a href="#education">Education</a>
-            <a href="#research">Research</a>
-            <a href="#internship">Internship</a>
-            <a href="#projects">Projects</a>
-            <a href="#experience">Experience</a>
-          </nav>
-          <a className="download-link" href="Fong_Shu_Hung_CV.pdf" download>Download PDF</a>
-        </div>
-      </header>
-
       <main id="cv-content">
         <div id="top" className="hero">
           <div className="hero-rule" aria-hidden="true" />
@@ -65,11 +53,19 @@ export default function Home() {
               <span aria-hidden="true">/</span>
               <a href="mailto:k04f06@connect.hku.hk">k04f06@connect.hku.hk</a>
             </div>
+            <a className="hero-download" href="Fong_Shu_Hung_CV.pdf" download>
+              <span>PDF</span>
+              Download full CV
+            </a>
           </div>
-          <a className="hero-download" href="Fong_Shu_Hung_CV.pdf" download>
-            <span>PDF</span>
-            Download full CV
-          </a>
+          <img
+            className="hero-photo"
+            src="fong-shu-hung-portrait.png"
+            alt="Portrait of Fong Shu Hung (Harrison)"
+            width="1254"
+            height="1254"
+            fetchPriority="high"
+          />
         </div>
 
         <div className="document-shell">
