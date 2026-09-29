@@ -127,7 +127,7 @@ export default function Home() {
             <Section id="manuscripts" title="Research Manuscripts">
               <Entry title="Harrison Fong" date="2026">
                 <p className="manuscript-title"><em>Representation Effects Are Model-Conditional: Probing Pretrained Code Retrievers with Manim Queries</em></p>
-                <p className="muted">Submitted to LP4FM 2026 (NeurIPS Workshop).</p>
+                <p className="muted">Spotlight, LP4FM 2026 (NeurIPS Workshop).</p>
               </Entry>
             </Section>
 
